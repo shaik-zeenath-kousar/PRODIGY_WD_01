@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single Page Navigation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav id="navbar">
+    <ul>
+      <li><a href="javascript:void(0);" onclick="showSection('home')">Home</a></li>
+      <li><a href="javascript:void(0);" onclick="showSection('about')">About Us</a></li>
+      <li><a href="javascript:void(0);" onclick="showSection('services')">Services</a></li>
+      <li><a href="javascript:void(0);" onclick="showSection('contact')">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="content">
+    <section id="home" class="section">
+      <h1>Welcome to Prodigy InfoTech</h1>
+      <h3><center>Providing World Class E-Learning</center></h3>
+    </section>
+    <section id="about" class="section">
+      <h1>About Us</h1>
+      <h3><center>Transforming the Way People Learn</center></h3>
+    </section>
+    <section id="services" class="section">
+      <h1>Our Services</h1>
+      <h3><center>Explore our services...</center></h3>
+    </section>
+    <section id="contact" class="section">
+      <h1><center>Contact Us</center></h1>
+      <h3><center>Let's Talk...</center></h3>
+      <h3><center>How can we help you?</center></h3>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
